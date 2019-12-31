@@ -16,6 +16,7 @@ import {
 } from "@angular/material";
 import { ClientsComponent } from './clients/clients.component'
 import { FormsModule } from '@angular/forms';
+import { ItemClientsComponent } from './clients/item-clients/item-clients.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FormsModule } from '@angular/forms';
     ClientComponent,
     EventComponent,
     ChildItemComponent,
-    ClientsComponent
+    ClientsComponent,
+    ItemClientsComponent
   ],
   imports: [
     BrowserModule,
